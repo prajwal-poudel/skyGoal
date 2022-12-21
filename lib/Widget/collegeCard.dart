@@ -19,12 +19,12 @@ Widget collegeCard(BuildContext context, CollegeDetai collegeDetail) {
     child: Card(
       // type: MaterialType.card,
       elevation: 5,
-
+      // color: Colors.red,
       surfaceTintColor: Colors.amber,
       // borderRadius: BorderRadius.circular(20),
       child: Container(
         width: deviceWidth,
-        height: deviceHeight * 0.32,
+        height: deviceHeight * 0.36,
         decoration: BoxDecoration(
             // color: Colors.white,
             borderRadius: BorderRadius.circular(50)),

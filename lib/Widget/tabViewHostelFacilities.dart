@@ -192,7 +192,7 @@ Widget tabViewHostelFacilities(
                   ),
                 ),
                 SizedBox(
-                  height: 30,
+                  height: 15,
                 ),
                 Row(
                   children: [
@@ -205,9 +205,10 @@ Widget tabViewHostelFacilities(
                   ],
                 ),
                 SizedBox(
-                  height: 15,
+                  height: 8,
                 ),
                 Container(
+                  // color: Colors.red,
                   child: Column(
                     children: [
                       Row(
@@ -217,7 +218,7 @@ Widget tabViewHostelFacilities(
                             size: deviceWidth * 0.052,
                           ),
                           SizedBox(
-                            width: 15,
+                            width: 10,
                           ),
                           Text(
                             hostel.facilities[0],
@@ -226,7 +227,7 @@ Widget tabViewHostelFacilities(
                         ],
                       ),
                       SizedBox(
-                        height: 15,
+                        height: 10,
                       ),
                       Row(
                         children: [
